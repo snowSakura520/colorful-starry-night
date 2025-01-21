@@ -1,17 +1,14 @@
-package example;
+package ColorfulStarryNight;
 
 import arc.*;
 import arc.util.*;
-import mindustry.*;
-import mindustry.content.*;
 import mindustry.game.EventType.*;
-import mindustry.gen.*;
 import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
 
-public class ExampleJavaMod extends Mod{
+public class test extends Mod{
 
-    public ExampleJavaMod(){
+    public test(){
         Log.info("Loaded ExampleJavaMod constructor.");
 
         //listen for game load event
@@ -31,7 +28,7 @@ public class ExampleJavaMod extends Mod{
     @Override
     public void loadContent(){
         Log.info("null");
-        ExampleJavaMod mod = this;
+        testItem.load();
     }
 
 }
