@@ -4,9 +4,9 @@ import arc.graphics.Color;
 import mindustry.type.Item;
 
 public class testItem {
-    public static Item 星燃;
+    public static Item starburn;
     public static void load() {
-        星燃 = new Item("星燃", Color.valueOf("ff0000ff")){{
+        starburn = new Item("星燃", Color.valueOf("ff0000ff")){{
             explosiveness = 0;
             flammability = 5.5f;
             radioactivity = 2.75f;
