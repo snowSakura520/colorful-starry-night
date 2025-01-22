@@ -2,13 +2,13 @@ package ColorfulStarryNight;
 
 import mindustry.mod.*;
 
-public class cxyMod extends Mod{
+public class csnMod extends Mod{
 
-    public cxyMod(){}
+    public csnMod(){}
 
     @Override
     public void loadContent(){
-        cxyItem.load();
+        csnItem.load();
     }
 
 }

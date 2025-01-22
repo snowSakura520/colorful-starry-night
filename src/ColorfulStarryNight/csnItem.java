@@ -3,7 +3,7 @@ package ColorfulStarryNight;
 import arc.graphics.Color;
 import mindustry.type.Item;
 
-public class cxyItem {
+public class csnItem {
     public static Item 星燃;
     public static void load() {
         星燃 = new Item("星燃", Color.valueOf("ff0000ff")){{

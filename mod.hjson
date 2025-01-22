@@ -1,7 +1,7 @@
 displayName: "colorful-starry-night"
 name: "colorful-starry-night"
 author: "snowSakura"
-main: "ColorfulStarryNight.cxyMod"
+main: "ColorfulStarryNight.csnMod"
 description: "试手模组"
 version: 1.0
 minGameVersion: 146
