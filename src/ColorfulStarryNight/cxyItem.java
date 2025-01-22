@@ -3,7 +3,7 @@ package ColorfulStarryNight;
 import arc.graphics.Color;
 import mindustry.type.Item;
 
-public class testItem {
+public class cxyItem {
     public static Item 星燃;
     public static void load() {
         星燃 = new Item("星燃", Color.valueOf("ff0000ff")){{
@@ -13,7 +13,7 @@ public class testItem {
             charge = 0;
             cost = 1;
             hardness = 100000;
-            alwaysUnlocked = false;
+            alwaysUnlocked = true;
             inlineDescription = true;
         }};
     }
